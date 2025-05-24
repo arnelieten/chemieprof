@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-light: #f7f2ee;
+  --bg-dark: #ebded5;
+  --accent-green: #03ccba;
+  --accent-red: #ff4d67;
+  --text: #322418;
+  
+  --font-chemieprof: serif;
+  
+  --space-xxs: 0.5rem;
+  --space-xs: 1rem;
+  --space-s: 1.5rem;
+  --space-m: 3rem;
+  --space-l: 6rem;
+  --space-xl: 12rem;
+  --space-xxl: 20rem;
+
+  --weight-bold: 700;
+  --weight-normal: 600;
+  --weight-light: 400;
+
+  --size-title: 30px;
+  --size-subtitle: 20px;
+  --size-text: 14px;
+}
+
+html, body {
+  line-height: 1.5;
+  font-family: var(--font-chemieprof);
+  color: var(--text);
+  background-color: var(--bg-light);
+}
+
+
+h1 {
+  font-size: var(--size-title);
+  font-weight: var(--weight-bold);
+  color: var(--text);
+  margin-bottom: var(--space-l);
+}
+
+h2 {
+  font-size: var(--size-subtitle);
+  font-weight: var(--weight-bold);
+  color: var(--text);
+  margin-bottom: var(--space-m);
+}
+
+p {
+  font-size: var(--size-text);
+  font-weight: var(--weight-normal);
+  color: var(--text);
+  margin-bottom: var(--space-s);
+}
